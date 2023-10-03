@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-price-analyzer
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: stock-price-analyzer
+  template:
+    metadata:
+      labels:
+        app: stock-price-analyzer
+    spec:
+      containers:
+        - name: stock-price-analyzer
+          image: stock-price-analyzer:minikube
+          ports:
+            - containerPort: 8000
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
