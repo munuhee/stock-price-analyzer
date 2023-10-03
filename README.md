@@ -25,9 +25,9 @@ To install the application, follow these steps:
 3. Run the Docker container:
 
     ```bash
-    docker run -p 5000:5000 stock-price-analyzer
+    docker run -p 8080:8080 stock-price-analyzer
 
-Now, the Crypto Price Checker application is running locally on port 5000.
+Now, the Crypto Price Checker application is running locally on port 8080.
 
 ## Usage
 
