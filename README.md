@@ -16,7 +16,7 @@ To install the application, follow these steps:
 
    ```bash
    git clone https://github.com/munuhee/stock-price-analyzer.git
-   cd crypto-price-checker
+   cd stock-price-analyzer
 2. Build the Docker image:
 
     ```bash
