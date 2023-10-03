@@ -38,7 +38,7 @@ Send a GET request to the following endpoint:
 ```text
    http://localhost:8080/api/fetch_stock_data?symbol=<COMPANY_SYMBOL>&start_date=<START_DATE>&end_date=<END_DATE>
 ```
-Replace `<_SYMBOL>` with the stock symbol of the company you want to analyze, `<START_DATE>` with the starting date of the analysis period (e.g., "2022-01-01"),  `<END_DATE>` with the date of the analysis period (e.g., "2022-12-31").
+Replace `<COMPANY_SYMBOL>` with the stock symbol of the company you want to analyze, `<START_DATE>` with the starting date of the analysis period (e.g., "2022-01-01"),  `<END_DATE>` with the date of the analysis period (e.g., "2022-12-31").
 
 ###  Example using cURL
 ```bash
