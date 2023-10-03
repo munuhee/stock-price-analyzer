@@ -20,7 +20,7 @@ To install the application, follow these steps:
 2. Build the Docker image:
 
     ```bash
-    docker build -t stock-price-analyzer
+    docker-compose build
 
 3. Run the Docker container:
 
