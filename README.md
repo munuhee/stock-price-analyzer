@@ -17,15 +17,11 @@ To install the application, follow these steps:
    ```bash
    git clone https://github.com/munuhee/stock-price-analyzer.git
    cd stock-price-analyzer
-2. Build the Docker image:
+   
+2. Run the setup file:
 
     ```bash
-    docker-compose build
-
-3. Run the Docker container:
-
-    ```bash
-    docker run -p 8080:8080 stock-price-analyzer
+    bash bin/setup.sh
 
 Now, the Crypto Price Checker application is running locally on port 8080.
 
