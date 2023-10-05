@@ -18,7 +18,7 @@ To install the application, follow these steps:
    git clone https://github.com/munuhee/stock-price-analyzer.git
    cd stock-price-analyzer
    
-2. Run the setup file:
+2. Run the setup.sh file (Builds the Docker container):
 
     ```bash
     bash bin/setup.sh
@@ -60,13 +60,3 @@ This module handles data retrieval from the Alpha Vantage API and performs stati
 
 **`run.py`**
 This script is used to run the Flask application. It creates the Flask app and starts the server on port 8080 in debug mode.
-
-## Running the Application
-To run the application, execute run.py:
-
-```bash
-   python run.py
-```
-Ensure you have configured your API_KEY in the config.py file to access the Alpha Vantage API.
-
-This microservice provides a simple and easy-to-use API for retrieving and analyzing stock price data. You can integrate it into your applications to perform stock analysis effortlessly.
