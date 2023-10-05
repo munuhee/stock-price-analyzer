@@ -1,14 +1,14 @@
 import requests
 from flask import jsonify, current_app
-from config import API_KEY
 import numpy as np
+import os
 
 VANTAGE_API_URL = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY'
 
 def fetch_stock_data(symbol, start_date, end_date):
     params = {
         'symbol': symbol,
-        'apikey': API_KEY,
+        'apikey': os.environ['API_KEY'],
         'outputsize': 'full',
         'datatype': 'json',
     }
