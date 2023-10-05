@@ -6,7 +6,6 @@ This is a microservice designed to deliver comprehensive stock price analysis ef
 
 Before you can run the application, ensure you have the following prerequisites and dependencies:
 
-- Python 3.10
 - Docker
 - Kubernetes (optional, for deployment)
 
