@@ -1,4 +1,6 @@
 # Stock Price Analyzer
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python Version](https://img.shields.io/badge/Python-3.10-green)](https://www.python.org/downloads/)
 
 This is a microservice designed to deliver comprehensive stock price analysis effortlessly. You can retrieve stock data by sending HTTP requests with your desired company's stock symbol and date range. Here's how you can use it:
 
