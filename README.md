@@ -22,7 +22,8 @@ To install the application, follow these steps:
 2. Run the setup.sh file (Builds the Docker container):
 
     ```bash
-    bash bin/setup.sh
+    chmod +x bin/setup.sh
+    ./bin/setup.sh
 
 Now, the Crypto Price Checker application is running locally on port 8080.
 
